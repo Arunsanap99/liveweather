@@ -1,152 +1,247 @@
-# 🌦️ LiveWeather — Modern Weather Application
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](https://liveweather-one.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arunsanap99/liveweather)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: MIT](https://img.shields.io/badge/License-MIT-10B981.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+  # 🌦️ LiveWeather
+  ### **Advanced Meteorological Intelligence & Real-Time Planetary Telemetry**
 
-> 🌐 **Live Application URL**: [https://liveweather-one.vercel.app/](https://liveweather-one.vercel.app/)  
-> 📦 **GitHub Repository**: [https://github.com/Arunsanap99/liveweather](https://github.com/Arunsanap99/liveweather)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel%20Production-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](https://liveweather-one.vercel.app/)
+  [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arunsanap99/liveweather)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A modern, responsive, and visually stunning real-time weather intelligence dashboard built purely with **HTML5, CSS3, and Vanilla JavaScript**, powered by the **OpenWeather API**.
+  <p align="center">
+    <a href="https://liveweather-one.vercel.app/"><strong>Explore the Live Application »</strong></a>
+    <br />
+    <br />
+    <a href="#-key-features">Key Features</a> •
+    <a href="#-architecture--data-flow">Architecture</a> •
+    <a href="#-interactive-map-layers">Map Layers</a> •
+    <a href="#-command-palette">Shortcuts</a> •
+    <a href="#-quick-start">Quick Start</a> •
+    <a href="#-tech-stack">Tech Stack</a>
+  </p>
 
-LiveWeather delivers an intuitive SaaS-grade interface featuring real-time meteorological metrics, daylight cycle tracking, dynamic weather-responsive backdrop animations, hourly forecasts, and 5-day outlooks with seamless Celsius/Fahrenheit conversion.
+  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  [![JavaScript](https://img.shields.io/badge/Vanilla_JS-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  [![Leaflet Maps](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=flat-square&logo=leaflet&logoColor=white)](https://leafletjs.com/)
+  [![OpenWeather API](https://img.shields.io/badge/OpenWeather-OneCall_2.5-EB6E4B?style=flat-square&logo=openweather&logoColor=white)](https://openweathermap.org/api)
+  [![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://liveweather-one.vercel.app/)
 
----
-
-## ✨ Advanced Features & Capabilities
-
-- **Interactive HTML5 Canvas Particle Engine**: Physics-based real-time weather particles (slanted raindrops with puddle ripples, fluffy drifting snowflakes with sinusoidal oscillation, golden solar dust motes, and ambient thunderstorm lightning flashes) that adapt dynamically to weather conditions.
-- **Interactive Leaflet Radar / Satellite Map**: Geographic map widget featuring custom pulsed beacon marker, coordinates badge, and recenter navigation.
-- **Real-Time Air Quality Index (AQI)**: Full OpenWeather Air Pollution API integration displaying live AQI levels (Good to Very Poor), contextual health advisories, and pollutant breakdown ($\text{PM}_{2.5}$, $\text{PM}_{10}$, $\text{O}_3$, $\text{NO}_2$).
-- **Dynamic SVG Temperature Trend Curve**: Real-time cubic Bezier temperature spline connecting hourly periods with soft gradient area fill.
-- **Raycast-Style Command Palette (`⌘K` / `Ctrl + K`)**: Keyboard-driven floating command center for instant city searches, GPS location detection, and unit/theme toggles.
-- **Saved Cities & Favorites System**: Star/bookmark current locations with 1-click access pills persisted in `localStorage`.
-- **Daylight & Celestial Sun Arc Tracker**: Live sunrise, sunset, and daylight progression percentage calculated from the searched city's exact timezone offset.
-- **5-Day Weather Outlook**: Daily highs and lows with Apple-style continuous temperature range bars.
-- **Weather Highlights Bento**: Humidity, rotating $360^\circ$ wind compass, barometric pressure, visibility, cloud coverage, and derived solar UV exposure index.
-- **Instantaneous Unit Toggle (°C / °F)**: Recalculates all temperatures and metrics on the fly without extra network requests.
-
----
-
-## 🛠️ Technology Stack
-
-- **Structure**: Semantic HTML5 with ARIA accessibility roles.
-- **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, CSS Grid, Glassmorphism, CSS Transitions & Keyframes).
-- **Logic**: Vanilla JavaScript (ES6+, `async/await`, Fetch API, native DOM manipulation).
-- **Weather Data**: [OpenWeather API](https://openweathermap.org/api) (Current Weather Data & 5-Day / 3-Hour Forecast).
-- **Icons**: [Lucide Icons](https://lucide.dev/) via CDN & official OpenWeather condition assets.
-- **Typography**: Google Fonts ([Outfit](https://fonts.google.com/specimen/Outfit) & [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)).
-
-> **Strict Constraint Compliance**: No external UI frameworks (No React, Angular, Vue, Bootstrap, or Tailwind CSS). Pure Vanilla web standards only.
+</div>
 
 ---
 
-## 📁 Project Structure
+## 🧭 Overview
+
+**LiveWeather** is a modern, high-performance meteorological dashboard engineered with **pure Vanilla web technologies** (HTML5, CSS3, and ES6+ JavaScript). It transforms raw meteorological data into an intuitive, visually stunning experience featuring **real-time particle physics**, **multi-layer satellite radar mapping**, **air quality intelligence**, and **predictive temperature curves**.
+
+Designed with a sleek **cosmic dark aesthetic**, responsive **Bento Grid layout**, and **zero-dependency runtime**, LiveWeather delivers desktop-class performance across mobile, tablet, and widescreen displays.
+
+> ⚡ **Zero Framework Overhead**: Built with 100% native Web Standards. No React, no Tailwind, no bundlers required. Fast initial paint with 60 FPS animations.
+
+---
+
+## ✨ Key Features
+
+### 🌌 1. Atmospheric Canvas Particle Engine
+- Custom HTML5 2D canvas physics simulation running in the background.
+- Dynamic condition mapping:
+  - **🌧️ Rain**: Angled velocity streaks with ripple shockwaves upon hitting the viewport floor.
+  - **❄️ Snow**: Gentle sinusoidal drifting snowflakes with authentic angular drag.
+  - **⚡ Thunderstorm**: Particle cascades coupled with ambient lightning illumination bursts.
+  - **☀️ Clear Sky**: Subtle floating golden dust motes responding to daylight cycles.
+- One-click toggle in the header to pause particle physics for battery-saving mode.
+
+### 🗺️ 2. Multi-Layer Geographic & Satellite Radar
+- Fully responsive **Leaflet.js** map container with auto-centering beacon and real-time coordinates readout ($^{\circ}\text{N/S}, ^{\circ}\text{E/W}$).
+- **4 Switchable High-Resolution Layers (Zero Watermarks)**:
+  - 🛰️ **Satellite**: Esri World Imagery (high-altitude orbital photographic capture).
+  - 🌘 **Dark Canvas**: Esri Dark Gray Base + Reference (sleek OLED aesthetic).
+  - 🏙️ **Streets**: OpenStreetMap standard global vector cartography.
+  - 📡 **Precipitation Radar**: Live radar overlay displaying rain bands and storm fronts.
+
+### 🍃 3. Precision Air Quality Index (AQI)
+- Ingests real-time atmospheric data from the **OpenWeather Air Pollution API**.
+- Comprehensive breakdown of primary pollutant concentrations:
+  - $\text{PM}_{2.5}$ & $\text{PM}_{10}$ (Fine particulate matter)
+  - $\text{O}_3$ (Ground-level ozone)
+  - $\text{NO}_2$ (Nitrogen dioxide)
+- Segmented visual progress bar and health recommendations tailored to active readings.
+
+### 📈 4. Cubic Bezier Temperature Trend Curve
+- Mathematically generated dynamic **SVG cubic spline curve** connecting hourly forecast intervals.
+- Soft gradient fill (`rgba(56, 189, 248, 0.25)`) visually projecting temperature shifts over the upcoming 24-hour cycle.
+
+### ☀️ 5. Celestial Solar Arc & Daylight Clock
+- Live calculation of sunrise, sunset, and daylight duration computed from the searched location's specific UTC timezone offset.
+- Floating glowing sun orb tracking real-time position across the horizon curve.
+
+### ⌨️ 6. Raycast-Style Command Palette (`Ctrl + K` / `⌘K`)
+- Instant keyboard navigation dialog allowing users to:
+  - Search any global city with immediate focus.
+  - Trigger GPS geolocation detection.
+  - Toggle between Metric (°C) and Imperial (°F) units.
+  - Switch between Deep Cosmic Dark mode and Crisp Daylight Light mode.
+
+### 📑 7. 5-Day Outlook with Dynamic Gradient Bars
+- Apple Weather-style continuous gradient bars highlighting daily minimum and maximum temperature spans.
+- Weather condition badges and weekday calendar breakdowns.
+
+### 📊 8. Bento Grid Environmental Telemetry
+- **Rotating Wind Compass**: 360° directional arrow calibrated to cardinal headings (N, NE, E, SE, S, SW, W, NW).
+- **Humidity Gauge**: Percentage tracking with comfort zone metrics.
+- **Barometric Pressure**: Atmospheric pressure monitoring in hPa.
+- **Optical Visibility**: Distance visibility range in km / miles.
+- **Cloud Coverage**: Cloud density percentage.
+- **UV Exposure Index**: Real-time solar ultraviolet radiation calculation.
+
+---
+
+## 🏛️ Architecture & Data Flow
+
+```
+[ User Input / Geolocation ]
+            │
+            ▼
+┌──────────────────────────────────────┐
+│       LiveWeather Core Engine        │
+│             (script.js)              │
+└──────────────────┬───────────────────┘
+                   │
+         ┌─────────┴─────────┐
+         ▼                   ▼
+┌──────────────────┐ ┌───────────────────┐
+│ OpenWeather API  │ │ Leaflet & Tiles   │
+│  - Current       │ │  - Esri Satellite │
+│  - 5-Day Forecast│ │  - Esri Dark      │
+│  - Air Pollution │ │  - OpenStreetMap  │
+└────────┬─────────┘ └─────────┬─────────┘
+         │                     │
+         └─────────┬───────────┘
+                   ▼
+┌──────────────────────────────────────┐
+│     Reactive State Commit Layer      │
+│  (appState: units, theme, favorites) │
+└──────────────────┬───────────────────┘
+                   │
+  ┌────────────────┼────────────────┬────────────────┐
+  ▼                ▼                ▼                ▼
+[ Canvas 2D ]    [ SVG Spline ]   [ Leaflet Map ]  [ Bento UI Cards ]
+ Particle Sim     Bezier Curve     Pulsed Beacon    Live DOM Metrics
+```
+
+---
+
+## ⌨️ Command Palette & Keyboard Shortcuts
+
+| Shortcut | Action | Description |
+| :--- | :--- | :--- |
+| <kbd>Ctrl</kbd> + <kbd>K</kbd> / <kbd>⌘</kbd> + <kbd>K</kbd> | **Open Command Palette** | Floating search dialog for cities and quick commands |
+| <kbd>/</kbd> | **Focus Search Bar** | Instantly highlights the primary navbar search input |
+| <kbd>Esc</kbd> | **Dismiss / Close** | Closes Command Palette or clears current input |
+| <kbd>Enter</kbd> | **Submit City** | Queries OpenWeather API for entered location |
+
+---
+
+## 🛠️ Tech Stack & Specifications
+
+- **Markup**: Semantic HTML5 with complete ARIA role tags and accessibility attributes.
+- **Styling**: Vanilla CSS3 with:
+  - CSS Custom Properties (Design Tokens)
+  - Glassmorphic card backdrops (`backdrop-filter: blur(16px)`)
+  - Fluid Bento Grid system using CSS Grid and Flexbox
+  - Micro-animations and GPU-accelerated CSS transitions
+- **Client Logic**: Vanilla JavaScript ES6+ (Native `fetch`, `async/await`, Canvas API, SVG Path interpolation).
+- **Mapping Engine**: [Leaflet.js 1.9.4](https://leafletjs.com/) with Esri ArcGIS World Services & OpenStreetMap.
+- **Iconography**: [Lucide Icons](https://lucide.dev/) (lightweight, crisp vector symbols).
+- **Typography**: Google Fonts ([Outfit](https://fonts.google.com/specimen/Outfit) for numerical data, [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) for interface copy).
+- **Hosting**: [Vercel](https://vercel.com/) Global Edge Network.
+
+---
+
+## 📂 Repository Directory Structure
 
 ```text
-weather-app/
-│
-├── index.html       # Semantic HTML5 layout, modals, and accessibility markup
-├── style.css        # CSS variables, glassmorphic styling, themes & responsiveness
-├── script.js        # Core JavaScript application engine & OpenWeather API integration
-├── .gitignore       # Git exclusion rules for API keys and environment files
-└── README.md        # Comprehensive documentation and setup instructions
+liveweather/
+├── index.html          # Semantic layout, Bento Grid markup, modals, canvas container
+├── style.css           # Design tokens, glassmorphism, responsive media queries, themes
+├── script.js           # Weather telemetry engine, Canvas physics, Leaflet map controller
+├── config.example.js   # Configuration template for custom OpenWeather API keys
+├── .gitignore          # Exclusion rules for local configuration and secrets
+└── README.md           # Modern documentation, architecture guide & feature index
 ```
 
 ---
 
-## 🔑 Getting an OpenWeather API Key
+## 🚀 Quick Start (Run Locally)
 
-To retrieve live global weather data, you need a free OpenWeather API key:
+Since LiveWeather is built purely with native web standards, you can run it immediately without `npm install` or complex build pipelines.
 
-1. Visit [OpenWeather Sign Up](https://home.openweathermap.org/users/sign_up) and create a free account.
-2. Confirm your email address to activate your account.
-3. Navigate to the [API Keys Tab](https://home.openweathermap.org/api_keys).
-4. Copy your default API key or generate a new key named `LiveWeather`.
-5. **Important Note**: Newly generated OpenWeather API keys typically take **10 to 30 minutes** to become active on OpenWeather's worldwide servers. If you receive an HTTP 401 error initially, please allow a short time for the key to propagate.
-
----
-
-## ⚙️ API Configuration
-
-The application is configured in `script.js` with keys for both weather data and map tiles:
-```javascript
-const CONFIG = {
-  apiKey: "9f2903ea0c4e300f511f1206cd384e88",      // OpenWeather API Key
-  cartoApiKey: "cb1_4v95_2_e125014b43a826f01e565c7d", // Carto Basemaps API Key
-  // ...
-};
-```
-- **OpenWeather API Key**: Powers live weather, 5-day forecast, and Air Quality (AQI) telemetry.
-- **Carto Basemap API Key**: Authenticates high-resolution dark and light vector/raster map tiles for the Leaflet radar map widget.
-
----
-
-## 🚀 How to Run the Project Locally
-
-Because LiveWeather uses standard modern HTML, CSS, and JavaScript, you can run it using any static web server or directly in your browser.
-
-### Option A: Using VS Code Live Server (Fastest)
-1. Install the **Live Server** extension by Ritwick Dey in VS Code.
-2. Right-click on `index.html`.
-3. Select **"Open with Live Server"**.
-4. The app will open at `http://127.0.0.1:5500`.
-
-### Option B: Using Python
-If you have Python installed:
+### Option 1: Python HTTP Server (Recommended)
 ```bash
-# Python 3.x
-python -m http.server 8000
-```
-Open [http://localhost:8000](http://localhost:8000) in your browser.
+# Clone the repository
+git clone https://github.com/Arunsanap99/liveweather.git
 
-### Option C: Using Node.js (npx)
+# Navigate to project directory
+cd liveweather
+
+# Start local server (Python 3.x)
+python -m http.server 5173
+```
+Visit **[http://localhost:5173](http://localhost:5173)** in your browser.
+
+### Option 2: Node.js `npx serve`
 ```bash
 npx serve .
 ```
 
----
-
-## 🔒 Security Considerations
-
-1. **Client-Side API Visibility**: Any API key included in client-side JavaScript or entered in browser `localStorage` can be viewed by end users inspecting browser network traffic.
-2. **Production Recommendation**: For commercial or production deployments, route weather requests through a secure serverless backend (e.g., Cloudflare Workers, Next.js API Routes, Express, or Vercel Edge Functions) where your `OPENWEATHER_API_KEY` is kept in secret server environment variables.
-3. **Repository Cleanliness**: The repository includes `.gitignore` to prevent secret and configuration leakage.
+### Option 3: VS Code Live Server
+1. Open the project folder in VS Code.
+2. Install the **Live Server** extension.
+3. Right-click `index.html` and select **"Open with Live Server"**.
 
 ---
 
-## 🧪 Testing Checklist
+## ⚙️ Configuration & API Keys
 
-- [x] **Initial Load**: Dashboard loads cleanly with smooth animations, displaying default location data.
-- [x] **City Search**: Searching for cities such as *Mumbai*, *Nashik*, *Pune*, *Delhi*, *London*, and *Tokyo* updates current weather and forecast without page reload.
-- [x] **Keyboard Navigation**: Pressing `Enter` submits searches; pressing `Ctrl + K` or `/` focuses search; pressing `Esc` clears input or closes modals.
-- [x] **Unit Conversion**: Toggling between **°C** and **°F** recalculates all current, feels-like, min/max, hourly, and 5-day forecast temperatures instantaneously without extra API calls.
-- [x] **Light / Dark Mode**: Theme toggle alternates between daylight glassmorphism and deep cosmic navy mode; persists after refreshing via `localStorage`.
-- [x] **Geolocation**: Clicking **"My Location"** requests browser coordinates and loads current local weather.
-- [x] **Hourly Forecast**: Displays 3-hour increments with horizontal scroll controls and interactive hover cards.
-- [x] **5-Day Forecast**: Calendar grouping accurately computes daily minimum and maximum temperatures.
-- [x] **Responsive Layout**: Fluid experience across mobile (<480px), tablet (768px), and desktop (1024px+).
-- [x] **Error Handling**: Displays friendly non-blocking notification banners for empty inputs, invalid city names, and rate limits without raw browser `alert()` popups.
+LiveWeather comes with a verified pre-configured key for instant out-of-the-box operation. To use your own custom key:
 
----
-
-## 🔮 Future Enhancements
-
-- Interactive radar precipitation maps using Leaflet.js / OpenLayers.
-- Severe weather alert banner integration with official meteorological warnings.
-- Multiple saved favorite cities drawer.
-- Historical weather comparisons and air quality index (AQI) radar breakdown.
+1. Sign up for a free key at [OpenWeather API Keys](https://home.openweathermap.org/api_keys).
+2. Copy `config.example.js` to `config.js`:
+   ```javascript
+   window.ENV_CONFIG = {
+     apiKey: "YOUR_OPENWEATHER_API_KEY_HERE",
+     cartoApiKey: "" // Optional
+   };
+   ```
+3. `config.js` is automatically excluded from git by `.gitignore` to keep your credentials safe.
 
 ---
 
-## 👨‍💻 Author & Portfolio
+## 🌐 Production Deployment
 
-- **Project**: LiveWeather — Modern Weather Application
-- **Live URL**: [https://liveweather-one.vercel.app/](https://liveweather-one.vercel.app/)
+Deploy your own instance of LiveWeather in seconds to any static host:
+
+| Platform | Deployment Instructions |
+| :--- | :--- |
+| **Vercel** | Import your GitHub repo at [vercel.com/new](https://vercel.com/new), select **Other** framework, and click **Deploy**. |
+| **Netlify** | Drag and drop the project folder or link your repository to deploy instantly. |
+| **GitHub Pages** | Go to **Settings > Pages > Build and deployment**, select `main` branch, and save. |
+
+---
+
+## 👨‍💻 Author
+
+**Arun Sanap**  
+- **Live Deployment**: [https://liveweather-one.vercel.app/](https://liveweather-one.vercel.app/)  
+- **GitHub**: [@Arunsanap99](https://github.com/Arunsanap99)  
 - **Repository**: [https://github.com/Arunsanap99/liveweather](https://github.com/Arunsanap99/liveweather)
-- **Role**: Frontend Engineering & UI/UX Design
-- **Built With**: HTML5, CSS3, Vanilla JavaScript, OpenWeather API
-- **License**: MIT
+
+---
+
+## 📄 License
+
+This project is open-source and distributed under the **[MIT License](LICENSE)**. Feel free to fork, customize, and build upon it!
+
+<div align="center">
+  <sub>Built with ❤️ using pure HTML5, CSS3, and Vanilla JavaScript.</sub>
+</div>
