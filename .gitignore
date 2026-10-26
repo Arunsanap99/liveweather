@@ -1,0 +1,26 @@
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+config.js
+config.local.js
+
+# OS & System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor caches
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
