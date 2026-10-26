@@ -16,8 +16,10 @@
  * 1. Configuration & Global State
  * ---------------------------------------------------------------------------- */
 const CONFIG = {
-  apiKey: (window.ENV_CONFIG && window.ENV_CONFIG.apiKey) || "YOUR_OPENWEATHER_API_KEY",
-  cartoApiKey: (window.ENV_CONFIG && window.ENV_CONFIG.cartoApiKey) || "",
+  apiKey: (window.ENV_CONFIG && window.ENV_CONFIG.apiKey && window.ENV_CONFIG.apiKey !== "YOUR_OPENWEATHER_API_KEY") 
+    ? window.ENV_CONFIG.apiKey 
+    : "9f2903ea0c4e300f511f1206cd384e88",
+  cartoApiKey: (window.ENV_CONFIG && window.ENV_CONFIG.cartoApiKey) || "cb1_4v95_2_e125014b43a826f01e565c7d",
   endpoints: {
     weather: "https://api.openweathermap.org/data/2.5/weather",
     forecast: "https://api.openweathermap.org/data/2.5/forecast",
