@@ -11,12 +11,12 @@
     <a href="https://liveweather-one.vercel.app/"><strong>Explore the Live Application »</strong></a>
     <br />
     <br />
+    <a href="#-application-showcase">Showcase</a> •
     <a href="#-key-features">Key Features</a> •
     <a href="#-architecture--data-flow">Architecture</a> •
-    <a href="#-interactive-map-layers">Map Layers</a> •
-    <a href="#-command-palette">Shortcuts</a> •
-    <a href="#-quick-start">Quick Start</a> •
-    <a href="#-tech-stack">Tech Stack</a>
+    <a href="#-command-palette--keyboard-shortcuts">Shortcuts</a> •
+    <a href="#-quick-start-run-locally">Quick Start</a> •
+    <a href="#-tech-stack--specifications">Tech Stack</a>
   </p>
 
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -37,6 +37,32 @@
 Designed with a sleek **cosmic dark aesthetic**, responsive **Bento Grid layout**, and **zero-dependency runtime**, LiveWeather delivers desktop-class performance across mobile, tablet, and widescreen displays.
 
 > ⚡ **Zero Framework Overhead**: Built with 100% native Web Standards. No React, no Tailwind, no bundlers required. Fast initial paint with 60 FPS animations.
+
+---
+
+## 📸 Application Showcase
+
+<div align="center">
+  <h3>🌌 Cosmic Dark Dashboard (Real-Time Meteorological Telemetry)</h3>
+  <img src="screenshots/dashboard-preview.png" alt="LiveWeather Cosmic Dark Dashboard" width="100%" style="border-radius: 12px; box-shadow: 0 12px 35px rgba(0,0,0,0.55);" />
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="screenshots/map-aqi-preview.png" width="49.5%" alt="Satellite Map & Air Quality Index Telemetry" style="border-radius: 8px;" />
+  <img src="screenshots/command-palette.png" width="49.5%" alt="Raycast Command Palette Ctrl+K" style="border-radius: 8px;" />
+</p>
+<p align="center">
+  <sub><strong>Left:</strong> Interactive Leaflet Satellite Radar & Air Quality Index &nbsp;•&nbsp; <strong>Right:</strong> Raycast-style floating Command Palette (<kbd>Ctrl</kbd> + <kbd>K</kbd>)</sub>
+</p>
+
+<br/>
+
+<div align="center">
+  <h3>☀️ Crisp Daylight Light Theme</h3>
+  <img src="screenshots/dashboard-light.png" alt="LiveWeather Crisp Daylight Light Mode" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+</div>
 
 ---
 
