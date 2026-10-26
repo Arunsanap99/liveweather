@@ -450,6 +450,7 @@ body.weather-mood-thunderstorm {
 .action-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.4rem;
   background: var(--bg-card-subtle);
   border: 1px solid var(--border-card);
@@ -459,6 +460,7 @@ body.weather-mood-thunderstorm {
   font-size: 0.8125rem;
   font-weight: 600;
   color: var(--text-secondary);
+  text-decoration: none;
   cursor: pointer;
   transition: all var(--transition-fast);
 }
@@ -1838,6 +1840,24 @@ body.weather-mood-thunderstorm {
   font-family: var(--font-display);
   font-weight: 700;
   color: var(--text-primary);
+}
+
+.footer-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all var(--transition-fast);
+}
+
+.footer-link:hover {
+  color: var(--brand-accent);
+}
+
+.footer-link svg {
+  width: 0.85rem;
+  height: 0.85rem;
 }
 
 .footer-right {

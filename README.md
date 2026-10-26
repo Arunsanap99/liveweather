@@ -1,5 +1,15 @@
 # 🌦️ LiveWeather — Modern Weather Application
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](https://liveweather-one.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arunsanap99/liveweather)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-10B981.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+> 🌐 **Live Application URL**: [https://liveweather-one.vercel.app/](https://liveweather-one.vercel.app/)  
+> 📦 **GitHub Repository**: [https://github.com/Arunsanap99/liveweather](https://github.com/Arunsanap99/liveweather)
+
 A modern, responsive, and visually stunning real-time weather intelligence dashboard built purely with **HTML5, CSS3, and Vanilla JavaScript**, powered by the **OpenWeather API**.
 
 LiveWeather delivers an intuitive SaaS-grade interface featuring real-time meteorological metrics, daylight cycle tracking, dynamic weather-responsive backdrop animations, hourly forecasts, and 5-day outlooks with seamless Celsius/Fahrenheit conversion.
@@ -135,6 +145,8 @@ npx serve .
 ## 👨‍💻 Author & Portfolio
 
 - **Project**: LiveWeather — Modern Weather Application
+- **Live URL**: [https://liveweather-one.vercel.app/](https://liveweather-one.vercel.app/)
+- **Repository**: [https://github.com/Arunsanap99/liveweather](https://github.com/Arunsanap99/liveweather)
 - **Role**: Frontend Engineering & UI/UX Design
 - **Built With**: HTML5, CSS3, Vanilla JavaScript, OpenWeather API
 - **License**: MIT
