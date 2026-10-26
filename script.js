@@ -953,6 +953,20 @@ function initLeafletMap() {
     });
 
     appState.mapMarker = L.marker([lat, lon], { icon: pulseIcon }).addTo(appState.mapInstance);
+
+    // Invalidate size once DOM stabilizes
+    setTimeout(() => {
+      if (appState.mapInstance) {
+        appState.mapInstance.invalidateSize();
+      }
+    }, 250);
+
+    // Window resize handler for responsive map redraws
+    window.addEventListener("resize", () => {
+      if (appState.mapInstance) {
+        appState.mapInstance.invalidateSize();
+      }
+    });
   } catch (e) {
     console.warn("Leaflet map initialization skipped:", e);
   }
@@ -967,6 +981,7 @@ function updateMapPosition(lat, lon, cityName) {
 
   if (!appState.mapInstance || !appState.mapMarker) return;
 
+  appState.mapInstance.invalidateSize();
   appState.mapInstance.flyTo([lat, lon], 11, { duration: 1.5 });
   appState.mapMarker.setLatLng([lat, lon]);
   appState.mapMarker.bindPopup(`<b>${cityName}</b><br>Live Telemetry`).openPopup();

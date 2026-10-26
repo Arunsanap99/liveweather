@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <!-- Stylesheet (Cache-busted for production deployment) -->
+  <link rel="stylesheet" href="style.css?v=1.1.0">
 </head>
 <body>
   <!-- Ambient Atmospheric Mesh Background -->
@@ -588,8 +588,14 @@
     </div>
   </div>
 
-  <!-- Script Engine & Environment Config -->
-  <script src="config.js"></script>
-  <script src="script.js"></script>
+  <!-- Script Engine & Production Environment Configuration -->
+  <script>
+    window.ENV_CONFIG = window.ENV_CONFIG || {
+      apiKey: "9f2903ea0c4e300f511f1206cd384e88",
+      cartoApiKey: "cb1_4v95_2_e125014b43a826f01e565c7d"
+    };
+  </script>
+  <script src="config.js" onerror="this.onerror=null;"></script>
+  <script src="script.js?v=1.1.0"></script>
 </body>
 </html>
